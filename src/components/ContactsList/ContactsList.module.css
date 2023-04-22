@@ -1,0 +1,35 @@
+.list {
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px 4px;
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: var(--bcg-color);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.18;
+    letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+    box-shadow: var(--box-shadow);
+}
